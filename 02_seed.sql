@@ -1,7 +1,7 @@
 -- seed_ui_exact.sql
 USE pelajarin_lms;
 
--- aman kalau di-run berulang
+
 INSERT IGNORE INTO users (full_name, email, role)
 VALUES ('Pelajarin Instructor', 'instructor@pelajarin.local', 'instructor');
 
